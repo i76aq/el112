@@ -1,0 +1,8 @@
+{
+  "name": "group1-qr",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "qrcode": "^1.5.4" },
+  "engines": { "node": ">=18" }
+}
