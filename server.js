@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const QRCode = require('qrcode');
 
 // ====== الإعدادات: غيّر هنا أو من متغيرات البيئة ======
-const GROUP_NAME = process.env.GROUP_NAME || 'القروب الأول';
-const GROUP_LINK = process.env.GROUP_LINK || 'https://chat.whatsapp.com/PUT_YOUR_GROUP_LINK_HERE';
+const GROUP_NAME = process.env.GROUP_NAME || 'el112';
+const GROUP_LINK = process.env.GROUP_LINK || 'https://chat.whatsapp.com/HBlzgWU7pCRHdxn5rPc54U?s=cl&p=a&mlu=4&ilr=4';
 const SECRET = process.env.SECRET || '3c7056a8c900f8ecd1c97027b87524d7e5a7e2200aa7c0bd';
 const ROTATE_MS = Number(process.env.ROTATE_MS) || 2000;          // كل كم يتغير الـ QR
 const QR_TTL_MS = Number(process.env.QR_TTL_MS) || 2000;          // صلاحية الـ QR
